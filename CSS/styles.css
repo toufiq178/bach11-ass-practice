@@ -96,3 +96,54 @@
     width: 474.03px;
     margin-right: 59.99px;
 }
+
+#pillars {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#pillars .pillars-container{
+    margin-top: 80px;
+}
+
+#pillars .pillars-container .section-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+#pillars .pillars-container .pillars-box{
+   margin-top: 32px;
+   display: flex;
+   justify-content: space-around; 
+   gap: 24px;
+
+}
+#pillars .pillars-container .pillars-box .pillars-card {
+
+    border: 16px;
+    padding: 24px;
+    max-width: 302px;
+    border-radius: 16px;
+    border: 1px solid #0E0E0E26;
+    box-shadow: 0px 4px 4px 0 #0E0E0E40 ;
+}
+#pillars .pillars-container .pillars-box .pillars-card img{
+    max-width: 64px;
+    margin-bottom: 24px;
+}
+#pillars .pillars-container .pillars-box .pillars-card h4{
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0ECC;
+    margin-bottom: 12px;
+
+}
+#pillars .pillars-container .pillars-box .pillars-card p{
+       font-size: 16px;
+    font-weight: normal;
+    color: #0E0E0EB3;
+    line-height: 24px;
+
+}
