@@ -134,14 +134,15 @@
     box-shadow: 0px 4px 4px 0 #0E0E0E40 ;
 }
 
-#pillars .pillars-container .pillars-box .pillars-card h4 , #vision .vision-container  .vision-box h4{
+#pillars .pillars-container .pillars-box .pillars-card h4 , #vision .vision-container  .vision-box h4, #vision .vision-about .vision-about-yunus h4{
+
     font-size: 20px;
     font-weight: bold;
     color: #0E0E0ECC;
     margin-bottom: 12px;
 
 }
-#pillars .pillars-container .pillars-box .pillars-card p , #vision .vision-container  .vision-box p{
+#pillars .pillars-container .pillars-box .pillars-card p , #vision .vision-container  .vision-box p ,#vision .vision-about .vision-about-yunus p{
     font-size: 16px;
     font-weight: normal;
     color: #0E0E0EB3;
@@ -224,4 +225,26 @@
     font-weight: 600;
     padding: 11px 20px ;
 
+}
+
+#vision .vision-about {
+    margin-top: 32px;
+    
+}
+#vision .vision-about .vision-about-yunus{
+    border: 1px;
+    background-color: #ffffff;
+    border: 16px;
+    margin: 0 auto;
+    border-radius: 16px;
+    border: 1px solid #0E0E0E26;
+    box-shadow: 0px 4px 4px 0 #0E0E0E40;
+}
+
+#vision .vision-about .vision-about-yunus .yunus-content {
+
+    padding: 48px 24px;
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: 24px 25px; 
 }
