@@ -4,8 +4,34 @@
 }
 
 
+/* shared-style */
+.section-heading h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+#pillars , #vision {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
 
+#pillars .pillars-container , .vision-container {
+    margin-top: 80px;
+}
 
+#pillars .pillars-container .pillars-box , #vision .vision-container  .vision-box  {
+
+   margin-top: 32px;
+   display: flex;
+   justify-content: space-around; 
+   gap: 24px;
+
+}
+#pillars .pillars-container .pillars-box .pillars-card img, #vision .vision-container  .vision-box img{
+    max-width: 64px;
+    margin-bottom: 24px;
+}
 
 /* main-style */
 #header .header-nav{
@@ -97,29 +123,7 @@
     margin-right: 59.99px;
 }
 
-#pillars {
-    width: 80%;
-    max-width: 1280px;
-    margin: 0 auto;
-}
 
-#pillars .pillars-container{
-    margin-top: 80px;
-}
-
-#pillars .pillars-container .section-heading {
-    font-size: 40px;
-    font-weight: bold;
-    color: #0E0E0E;
-}
-
-#pillars .pillars-container .pillars-box{
-   margin-top: 32px;
-   display: flex;
-   justify-content: space-around; 
-   gap: 24px;
-
-}
 #pillars .pillars-container .pillars-box .pillars-card {
 
     border: 16px;
@@ -129,21 +133,95 @@
     border: 1px solid #0E0E0E26;
     box-shadow: 0px 4px 4px 0 #0E0E0E40 ;
 }
-#pillars .pillars-container .pillars-box .pillars-card img{
-    max-width: 64px;
-    margin-bottom: 24px;
-}
-#pillars .pillars-container .pillars-box .pillars-card h4{
+
+#pillars .pillars-container .pillars-box .pillars-card h4 , #vision .vision-container  .vision-box h4{
     font-size: 20px;
     font-weight: bold;
     color: #0E0E0ECC;
     margin-bottom: 12px;
 
 }
-#pillars .pillars-container .pillars-box .pillars-card p{
-       font-size: 16px;
+#pillars .pillars-container .pillars-box .pillars-card p , #vision .vision-container  .vision-box p{
+    font-size: 16px;
     font-weight: normal;
     color: #0E0E0EB3;
     line-height: 24px;
+
+}
+#vision .vision-container .section-heading p{
+
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0E0E0EB3;
+}
+ 
+#vision .vision-container  .vision-box .vision-card-1 {
+    border: 1px;
+    background-color: #5490F533;
+    border: 16px;
+    padding: 32px;
+    max-width: 410.67px;
+    border-radius: 16px;
+    border: 1px solid #0E0E0E26;
+    box-shadow: 0px 4px 4px 0 #0E0E0E40;
+}
+#vision .vision-container  .vision-box .vision-card-2 {
+    border: 1px;
+    background-color: #C6E4D6;
+    border: 16px;
+    padding: 32px;
+    max-width: 410.67px;
+    border-radius: 16px;
+    border: 1px solid #0E0E0E26;
+    box-shadow: 0px 4px 4px 0 #0E0E0E40;
+}
+#vision .vision-container  .vision-box .vision-card-3 {
+    border: 1px;
+    background-color: #F7EBCF;
+    border: 16px;
+    padding: 32px;
+    max-width: 410.67px;
+    border-radius: 16px;
+    border: 1px solid #0E0E0E26;
+    box-shadow: 0px 4px 4px 0 #0E0E0E40;
+}
+#vision .vision-container  .vision-box .vision-card-1 button{
+
+    margin-top: 24px ;
+    border-radius: 8px;
+    border: none;
+    background-color: #5490F5;
+    box-shadow: 0px 4px 4px 0 #00000040;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    padding: 11px 20px ;
+
+}
+#vision .vision-container  .vision-box .vision-card-2 button{
+
+    margin-top: 24px ;
+    border-radius: 8px;
+    border: none;
+    background-color: #09A15C;
+    box-shadow: 0px 4px 4px 0 #00000040;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    padding: 11px 20px ;
+
+}
+#vision .vision-container  .vision-box .vision-card-3 button{
+
+    margin-top: 24px ;
+    border-radius: 8px;
+    border: none;
+    background-color: #FFC239;
+    box-shadow: 0px 4px 4px 0 #00000040;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    padding: 11px 20px ;
 
 }
