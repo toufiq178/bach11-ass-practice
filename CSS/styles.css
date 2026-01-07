@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* main-style */
+#header .header-nav{
+
+    width: 80%;
+    max-width: 1280px ;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#header .header-nav h2{
+
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E ;
+    margin: 31px 0;
+}
+#header .header-nav button{
+
+    color: #006A50;
+    width: 116px;
+    margin: 24px 0;
+    border: 1px solid #006A50 ;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: transparent;
+}
+#header .header-banner {
+
+    width: 80%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+#header .header-banner .banner-container{
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    align-items: center;
+    background-color: #C6E4D6 ;
+    border: none;
+    border-radius: 24px;
+    padding:  80px 59px;
+
+}
+
+#header .header-banner .banner-container .banner-content{
+    width: 622px ;
+    margin: 37px 0;
+    
+}
+#header .header-banner .banner-container .banner-content p{
+   
+    font-size: 24px;
+    color: #0E0E0E ;
+    font-weight:500 ;
+    opacity: 50%;
+
+} 
+#header .header-banner .banner-container .banner-content h2{
+   
+    font-size: 56px;
+    color: #0E0E0E ;
+    font-weight:bold ;
+    margin-top: 16px;
+    width: 622px;
+    
+}
+
+#header .header-banner .banner-container .banner-content button{
+
+   
+    background-color: #006A50;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px ;
+    margin-top: 24px;
+}
+
+#header .header-banner .banner-container .banner-content .banner-img{
+
+    width: 474.03px;
+    margin-right: 59.99px;
+}
