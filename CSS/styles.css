@@ -49,7 +49,7 @@
     color: #0E0E0E ;
     margin: 31px 0;
 }
-#header .header-nav button{
+#header .header-nav button  {
 
     color: #006A50;
     width: 116px;
@@ -104,7 +104,7 @@
     
 }
 
-#header .header-banner .banner-container .banner-content button{
+#header .header-banner .banner-container .banner-content button , .btn{
 
    
     background-color: #006A50;
@@ -231,7 +231,7 @@
     margin-top: 32px;
     
 }
-#vision .vision-about .vision-about-yunus ,#opinion .opinion-container {
+#vision .vision-about .vision-about-yunus ,#opinion .opinion-container ,#recent-news .news-container {
     border: 1px;
     background-color: #ffffff;
     border: 16px;
@@ -248,7 +248,7 @@
     background-repeat: no-repeat;
     background-position: 24px 25px; 
 }
-#opinion {
+#opinion , #recent-news{
     margin: 0 auto;
     width: 80%;
     max-width: 1280px;
@@ -308,4 +308,34 @@
 {
     font-weight: 400;
     color: #0E0E0E;
+}
+
+#recent-news .news-container{
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+    margin-top:32px ;
+    padding: 48px;
+}
+#recent-news .news-card2{
+
+    flex-direction: row-reverse;
+}
+#recent-news .news-container img {
+
+    border-radius: 24px;
+}
+#recent-news .news-container .details h4{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0e0e0ed3;
+    margin-bottom: 12px;
+}
+#recent-news .news-container .details p{
+    margin-top: 12px;
+    line-height: 24px;
+    color: #0e0e0ea9;
+
 }
