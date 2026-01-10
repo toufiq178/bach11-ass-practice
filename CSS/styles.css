@@ -5,8 +5,8 @@
 
 
 /* shared-style */
-.section-heading h2{
-    font-size: 40px;
+.section-heading {
+    font-size: 48px;
     font-weight: bold;
     color: #0E0E0E;
 }
@@ -231,7 +231,7 @@
     margin-top: 32px;
     
 }
-#vision .vision-about .vision-about-yunus{
+#vision .vision-about .vision-about-yunus ,#opinion .opinion-container {
     border: 1px;
     background-color: #ffffff;
     border: 16px;
@@ -247,4 +247,65 @@
     background-image: url('../assets/quote-bg.png');
     background-repeat: no-repeat;
     background-position: 24px 25px; 
+}
+#opinion {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1280px;
+    padding-top: 80px;
+}
+#opinion .opinion-container {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+#opinion .op-h2 {
+    margin-bottom: 24px;
+}
+#opinion .opinion-container  .table-opinion{
+
+    margin: 32px;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#opinion .opinion-container  .table-opinion th ,td {
+
+    border: 1px solid rgb(175, 175, 175);
+    gap: -1;
+    
+    
+}
+#opinion .opinion-container  .table-opinion th {
+
+    background-color:#C6E4D6 ;
+    color: #0E0E0E;
+    padding: 24px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+#opinion .opinion-container  .table-opinion tr td{
+
+    color: #0E0E0E;
+    padding: 24px;
+    font-weight: 600;
+    font-size: 16px;
+}
+#opinion .opinion-container  .table-opinion tr select {
+
+    border-radius: 4px;
+    background-color:#C6E4D6 ;
+
+    width:154px;
+    height: 44px;
+    padding: 12px 40px 12px 16px; 
+
+}
+#opinion .opinion-container  .table-opinion tr select option
+{
+    font-weight: 400;
+    color: #0E0E0E;
 }
